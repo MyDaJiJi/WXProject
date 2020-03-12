@@ -1,0 +1,10 @@
+.button{
+  width: 380rpx;
+  height: 100rpx;
+  margin-top:450rpx;
+  background-color:rgb(13, 129, 9);
+  font-weight: bold;
+  padding-top: 7rpx;
+  font-size: 37rpx;
+  border: 7rpx solid rgb(2, 73, 32);
+}

@@ -1,0 +1,4 @@
+<!--pages/homepage/homepage.wxml-->
+<view class = "homepage">
+  <image src = "../../image/homePage/01.jpg" class = "startImage"></image>
+</view>

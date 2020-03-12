@@ -1,0 +1,36 @@
+@import "../movie-tepl/movie-tepl.wxss";
+.type-container{
+  font-size:32rpx;
+  margin-bottom:20rpx;
+}
+.actor-container{
+  font-size:32rpx;
+  margin-bottom:20rpx;
+}
+.directors-container{
+  font-size:32rpx;
+  margin-bottom:20rpx;
+}
+.year-container{
+  font-size:32rpx;
+}
+/*总容器格式*/
+.container-info{
+  display:flex;
+  flex-direction:row;
+  margin-bottom:-25rpx;
+  background-color:rgb(236, 238, 240);
+  border-bottom:1rpx double rgb(190, 206, 216);
+  
+}
+/*总文体格式*/
+.container-text{
+  margin-top:60rpx;
+  margin-left:10rpx;
+}
+/*电影模板格式*/
+.movie-cover{
+  margin-top:50rpx;
+  margin-left:20rpx;
+  
+}

@@ -1,0 +1,45 @@
+{
+  "pages": [
+    "pages/homepage/homepage",
+    "pages/login/login",
+    "pages/comments/comments",
+    "pages/movie/movie-detail/movie-detail",
+    "pages/movie/special-movie/special-movie",
+    "pages/movie/movie",
+    "pages/movie/movie-search/movie-search",
+    "pages/setting/setting",
+    "pages/setting/device/device"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#4A6141",
+    "backgroundColor": "#4A6141"
+  },
+  "tabBar": {
+    "borderStyle": "white",
+    "selectedColor": "#4A6141",
+    "color": "#333",
+    "backgroundColor": "#fff",
+    "position": "bottom",
+    "list": [
+      {
+        "pagePath": "pages/movie/movie",
+        "text": "电影",
+        "iconPath": "image/icon/wx_app_movie.png",
+        "selectedIconPath": "image/icon/wx_app_movie@HL.png"
+      },
+      {
+        "pagePath": "pages/setting/setting",
+        "text": "设置",
+        "iconPath": "image/icon/wx_app_setting.png",
+        "selectedIconPath": "image/icon/wx_app_setting@HL.png"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 20000,
+    "connectSocket": 20000,
+    "uploadFile": 20000,
+    "downloadFile": 20000
+  },
+  "sitemapLocation": "sitemap.json"
+}

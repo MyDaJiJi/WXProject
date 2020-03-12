@@ -1,0 +1,28 @@
+<view class = "container">
+  <block wx:for = "{{comments}}" wx:for-item="item" wx:key = "key"> 
+    <!--添加分割线-->
+    <view class = "lines"></view>
+    <!--品论-->
+    <view class = "comment-container">
+
+      <!--用户头像和昵称-->
+      <view class = "userInfo-container">
+        <image src = "{{item.head_image}}"/>
+        <text class = "text">{{item.nickname}}</text>
+      </view>
+      <!--用户评论-->
+      <view class = "comments-container">
+        <text class ="comment-text">{{item.comment}}</text>
+      </view>
+    </view>
+  </block>
+  <!--输入查询框-->
+  <view class = "search-box">
+    <icon type = "search" class = "search-img" size ="13" color = "405f80"></icon>
+    <view class = "input-box">
+    <input class = "search-input" value = "{{InputValue}}" bindinput = "bindSearchInput"      placeholder = "请输入电影名称" />
+    </view>
+    
+    <view class = "submit-button" catchtap = "onSubmit"><text class = "search-text">发送</text></view>
+  </view>
+</view>

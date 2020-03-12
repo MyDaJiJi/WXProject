@@ -1,0 +1,24 @@
+    <import src = "../movie-tepl/movie-tepl.wxml"/>
+<template name = "movie-tepl-list">
+   <view class = "movie-list-container">
+   <!--添加分割线--> 
+   <view class = "lines"></view>
+   
+    <view class = "inner-container">
+      <!--头部导向-->
+      <view class = "movie-header">
+        <text class = "movie-type">{{MovieType}}</text>
+        <view catchtap = "onMore" class = "more" data-movietype = "{{Type}}">
+          <text class = "more-text">更多</text>
+        </view>
+      </view>
+      <!--电影列表-->
+      <view class = "movie-container">
+        <block wx:for = "{{movies}}" wx:for-item = "movie" wx:key = "key">
+          <template is = "movie-tepl" data = "{{...movie}}"/>
+        </block>
+      </view>
+
+    </view>
+   </view>
+</template>

@@ -1,0 +1,20 @@
+
+<import src = "../movie-info/movie-info.wxml"/>
+<view class = "container-search">
+<view class = "container-search2">
+    <!--输入查询框-->
+    <view class = "search-box">
+      <icon type = "search" class = "search-img" size ="13" color = "405f80"></icon>
+      <view class = "input-box">
+      <input class = "search-input" value = "{{InputValue}}" bindinput = "bindSearchInput"      placeholder = "请输入电影名称" />
+      </view>
+      
+      <view class = "submit-button" catchtap = "submit_search"><text class = "search-text">搜索</text></view>
+    </view>
+      <!--电影列表-->
+    <block wx:for = "{{allMovies}}" wx:for-item = "movieT" wx:key = "key">
+      <view class = "lines"></view>
+      <template is = "movie-info" data = "{{...movieT}}"/>
+    </block>
+  </view>
+</view>

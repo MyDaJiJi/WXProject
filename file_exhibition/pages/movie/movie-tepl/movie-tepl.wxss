@@ -1,0 +1,26 @@
+@import "../start-tepl/start-tepl.wxss";
+.movie-container-tepl{
+  margin-top:20 rpx;
+  align-items:center;
+  height:400rpx;
+  margin-left:10rpx;
+  width:250rpx;
+  display:flex;
+  flex-direction:column;
+  
+}
+/*电影标题*/
+.title-style{
+  font-size:30rpx;
+  margin-top:20rpx;
+  margin-bottom: -10rpx;
+}
+
+.movie-image{
+  height:240rpx;
+  width:160rpx;
+  border: 7rpx solid rgb(165, 184, 189);
+  border-radius:20rpx;
+  border-top-left-radius:5rpx;
+  border-bottom-left-radius:5rpx;
+}

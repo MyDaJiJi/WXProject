@@ -1,0 +1,32 @@
+.homepage{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+}
+.startImage{
+  width:720rpx;
+  height:1080rpx;
+  align-items:center;
+  margin-top:20rpx;
+
+}
+.journey-container{
+    margin-top: 0rpx;
+    border: 1px solid #EA5A3C;
+    width: 200rpx;
+    height: 80rpx;
+    border-radius: 5px;
+    text-align:center;
+}
+
+.journey{
+    font-size:22rpx;
+    font-weight: bold;
+    line-height:80rpx;
+    color: #EA5A3C;
+}
+page{
+  background-color:black;
+  /*background-image:url('../../image/homePage/01.jpg')*/
+
+}

@@ -1,0 +1,59 @@
+2018/12/01 13:39:22 [error] 13452#13572: *1 CreateFile() "F:\nginx\nginx-1.14.1/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost"
+2018/12/01 13:39:23 [error] 13452#13572: *3 CreateFile() "F:\nginx\nginx-1.14.1/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "www.localhost"
+2018/12/01 13:39:24 [error] 13452#13572: *1 CreateFile() "F:\nginx\nginx-1.14.1/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2018/12/01 16:37:13 [notice] 15628#1312: signal process started
+2018/12/01 16:37:37 [notice] 11568#7388: signal process started
+2018/12/01 16:38:01 [emerg] 16344#15136: CreateFile() "F:/path/to/nginx.conf" failed (3: The system cannot find the path specified)
+2018/12/01 16:43:06 [error] 13452#13572: *5 CreateFile() "F:\nginx\nginx-1.14.1/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost"
+2018/12/01 16:43:07 [error] 13452#13572: *7 CreateFile() "F:\nginx\nginx-1.14.1/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "www.localhost"
+2018/12/01 16:44:14 [notice] 14940#9916: signal process started
+2018/12/01 16:59:00 [error] 13452#13572: *11 CreateFile() "F:\nginx\nginx-1.14.1/html/v2/book/1220562" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /v2/book/1220562 HTTP/1.1", host: "localhost", referrer: "https://servicewechat.com/wxba844e59b82b93a0/devtools/page-frame.html"
+2018/12/01 16:59:26 [error] 13452#13572: *13 CreateFile() "F:\nginx\nginx-1.14.1/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost"
+2018/12/01 16:59:26 [error] 13452#13572: *15 CreateFile() "F:\nginx\nginx-1.14.1/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "www.localhost"
+2018/12/01 16:59:26 [error] 13452#13572: *13 CreateFile() "F:\nginx\nginx-1.14.1/html/v2/book/1220562" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /v2/book/1220562 HTTP/1.1", host: "localhost"
+2018/12/01 16:59:57 [error] 13452#13572: *13 CreateFile() "F:\nginx\nginx-1.14.1/html/v2/movie/top250" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /v2/movie/top250 HTTP/1.1", host: "localhost"
+2018/12/01 20:31:31 [notice] 4904#11016: signal process started
+2018/12/01 20:33:53 [emerg] 1876#11492: host not found in upstream "12safw234sdafhoc.com" in F:\nginx\nginx-1.14.1/conf/nginx.conf:91
+2018/12/01 20:34:29 [notice] 9784#6760: signal process started
+2018/12/01 20:48:05 [notice] 5788#12284: signal process started
+2018/12/02 15:00:13 [notice] 13980#5688: signal process started
+2019/05/04 14:57:23 [emerg] 9508#11708: bind() to 0.0.0.0:80 failed (10013: An attempt was made to access a socket in a way forbidden by its access permissions)
+2019/05/05 14:46:14 [emerg] 6196#9224: bind() to 0.0.0.0:80 failed (10013: An attempt was made to access a socket in a way forbidden by its access permissions)
+2019/05/05 18:54:39 [emerg] 6492#924: bind() to 0.0.0.0:80 failed (10013: An attempt was made to access a socket in a way forbidden by its access permissions)
+2019/05/05 19:05:46 [emerg] 7020#6448: CreateFile() "F:\nginx\nginx-1.14.1/conf/nginx.conf" failed (2: The system cannot find the file specified)
+2019/05/05 19:07:19 [emerg] 8152#6892: CreateFile() "F:\nginx\nginx-1.14.1/conf/nginx.conf" failed (2: The system cannot find the file specified)
+2019/05/05 19:08:17 [notice] 9048#9800: signal process started
+2019/05/05 19:08:17 [error] 9048#9800: OpenEvent("Global\ngx_stop_5024") failed (2: The system cannot find the file specified)
+2019/05/05 19:09:51 [emerg] 4752#3856: bind() to 0.0.0.0:80 failed (10013: An attempt was made to access a socket in a way forbidden by its access permissions)
+2019/05/05 19:18:57 [emerg] 6876#6812: bind() to 0.0.0.0:80 failed (10013: An attempt was made to access a socket in a way forbidden by its access permissions)
+2019/05/05 19:21:39 [notice] 7244#1240: signal process started
+2019/05/05 19:21:39 [error] 7244#1240: OpenEvent("Global\ngx_reload_5024") failed (2: The system cannot find the file specified)
+2019/05/05 19:24:55 [emerg] 8488#5800: bind() to 0.0.0.0:80 failed (10013: An attempt was made to access a socket in a way forbidden by its access permissions)
+2019/05/05 19:36:12 [error] 6764#6336: *1 CreateFile() "F:\nginx\nginx-1.14.1/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost"
+2019/05/05 19:36:12 [error] 6764#6336: *3 CreateFile() "F:\nginx\nginx-1.14.1/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "www.localhost"
+2019/05/05 19:36:23 [error] 6764#6336: *1 CreateFile() "F:\nginx\nginx-1.14.1/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2019/05/05 19:40:29 [notice] 7188#8596: signal process started
+2019/05/06 14:33:11 [notice] 2292#10524: signal process started
+2019/05/06 14:51:27 [error] 10780#10856: *36 CreateFile() "F:\nginx\nginx-1.14.1/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost"
+2019/05/06 14:51:28 [error] 10780#10856: *38 CreateFile() "F:\nginx\nginx-1.14.1/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "www.localhost"
+2019/05/06 14:51:30 [error] 10780#10856: *36 CreateFile() "F:\nginx\nginx-1.14.1/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/v2/movie/top250"
+2019/05/07 22:40:20 [error] 8584#6404: *581 CreateFile() "F:\nginx\nginx-1.14.1/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost"
+2019/05/07 22:40:21 [error] 8584#6404: *583 CreateFile() "F:\nginx\nginx-1.14.1/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "www.localhost"
+2019/05/07 22:49:37 [error] 8584#6404: *588 CreateFile() "F:\nginx\nginx-1.14.1/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/v2/movie/object/1950330"
+2019/06/17 13:43:25 [notice] 3160#5220: signal process started
+2019/06/17 13:44:08 [notice] 3336#8076: signal process started
+2019/06/17 13:52:27 [notice] 3160#1892: signal process started
+2019/06/17 13:56:11 [error] 5900#7424: *6 CreateFile() "F:\nginx\nginx-1.14.1/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost"
+2019/06/17 13:56:12 [error] 5900#7424: *8 CreateFile() "F:\nginx\nginx-1.14.1/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "www.localhost"
+2019/06/17 13:56:13 [error] 5900#7424: *6 CreateFile() "F:\nginx\nginx-1.14.1/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/v2/movie/in_theaters?start=0&count=10"
+2019/06/17 14:10:19 [notice] 1692#2144: signal process started
+2019/06/17 14:37:06 [notice] 4508#7456: signal process started
+2019/06/17 15:02:34 [error] 5284#5628: *44 CreateFile() "F:\nginx\nginx-1.14.1/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost"
+2019/06/17 15:02:34 [error] 5284#5628: *46 CreateFile() "F:\nginx\nginx-1.14.1/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "www.localhost"
+2019/06/17 15:44:08 [error] 5284#5628: *97 CreateFile() "F:\nginx\nginx-1.14.1/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost"
+2019/06/17 15:44:08 [error] 5284#5628: *99 CreateFile() "F:\nginx\nginx-1.14.1/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "www.localhost"
+2019/06/18 20:36:38 [error] 8092#7832: *4 CreateFile() "F:\nginx\nginx-1.14.1/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost"
+2019/06/18 20:36:39 [error] 8092#7832: *6 CreateFile() "F:\nginx\nginx-1.14.1/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "www.localhost"
+2019/06/25 09:54:49 [emerg] 2628#1484: host not found in upstream "api.douban.com" in F:\nginx\nginx-1.14.1/conf/nginx.conf:90
+2020/02/11 13:45:02 [error] 2876#9184: *18 CreateFile() "F:\nginx\nginx-1.14.1/html/index/users/code2seesion" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "POST /index/users/code2seesion HTTP/1.1", host: "localhost", referrer: "https://servicewechat.com/wx2834789c15193634/devtools/page-frame.html"
+2020/02/11 13:45:16 [error] 2876#9184: *18 CreateFile() "F:\nginx\nginx-1.14.1/html/index/users/code2seesion" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "POST /index/users/code2seesion HTTP/1.1", host: "localhost", referrer: "https://servicewechat.com/wx2834789c15193634/devtools/page-frame.html"

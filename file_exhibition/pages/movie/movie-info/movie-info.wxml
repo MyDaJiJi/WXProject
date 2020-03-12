@@ -1,0 +1,34 @@
+<import src = "../movie-tepl/movie-tepl.wxml" />
+<template name = "movie-info">
+  <view class = "container-info">
+    <!--电影封面及评分-->
+    <view class = "movie-cover">
+      <template is = "movie-tepl" data = "{{...movie}}"/>
+    </view>
+
+    <!--文字信息-->
+    <view class = "container-text">
+      <!--类型-->
+      <view class = "type-container">
+        <text class = "type-text">类型: </text>
+        <text class = "type-info">{{type_info}}</text>
+      </view>
+      <!--演员-->
+      <view class = "actor-container">
+        <text class = "actor-text">演员: </text>
+        <text class = "actor-list">{{actor_list}}</text>
+      </view>
+      <!--导演-->
+      <view class = "directors-container">
+        <text class = "directors-text">导演: </text>
+        <text class = "movie-directors">{{movie_directors}}</text>
+      </view>
+      <!--年份-->
+      <view class = "year-container">
+        <text class = "year-text">年份: </text>
+        <text class = "year">{{year}}</text>
+      </view>
+    </view>
+    
+  </view>
+</template>

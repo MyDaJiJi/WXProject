@@ -1,0 +1,9 @@
+<import src = "../start-tepl/start-tepl.wxml"/><!--引入star模板-->
+
+<template name = "movie-tepl">
+  <view class = "movie-container-tepl" catchtap = "onMovie" data-movieid='{{ID}}'>
+    <image class = "movie-image" src = "{{image}}"/>
+    <text class = "title-style">{{title}}</text>
+    <template is = "starts-tepl" data = "{{start:start, score:average}}" />
+  </view>
+</template>

@@ -1,0 +1,15 @@
+image{
+  height: 25rpx;
+  width: 25rpx;
+  
+}
+.star-core{
+  font-size: 24rpx;
+  margin:15rpx;
+  
+}
+.starts-container{
+  padding:20rpx;
+  display:flex;
+  flex-direction:row;
+}

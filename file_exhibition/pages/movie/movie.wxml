@@ -1,0 +1,23 @@
+  <!--pages/movie/movie.wxml-->
+<import src = "movie-tepl-list/movie-tepl-list.wxml"/>
+<view class = "container">
+
+  <!--输入查询框-->
+  <view class = "search-box">
+    <icon type = "search" class = "search-img" size ="13" color = "405f80"></icon>
+    <view class = "input-box">
+    <input class = "search-input" value = "{{InputValue}}" bindinput = "bindSearchInput"      placeholder = "请输入电影名称" />
+    </view>
+    <view class = "submit-button" catchtap = "submit_search"><text class = "search-text">搜索</text></view>
+  </view>
+  <!--电影类型-->
+  <view class = "movie-template">
+     <template is = "movie-tepl-list" data = "{{...in_Theaters}}"/>
+  </view>
+  <view class = "movie-template">
+     <template is = "movie-tepl-list" data = "{{...coming_soon}}"/>
+  </view>
+  <view class = "movie-template">
+     <template is = "movie-tepl-list" data = "{{...Top250}}"/>
+  </view>
+</view>

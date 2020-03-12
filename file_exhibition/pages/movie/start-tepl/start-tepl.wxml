@@ -1,0 +1,15 @@
+<template name = "starts-tepl">
+  <view class = "starts-container">
+    <view class = "start-temp">
+    <!---其中starts是元素列表,由引用这个模块的页面赋值
+    ，i是starts列表中的某一个元素-->
+      
+      <block wx:for = "{{start}}" wx:for-item = "i" wx:key = "key">
+        <image wx:if = "{{ i === 1}}" src = "../../../image/icon/start1.png" />
+        <image wx:if = "{{ i === 0.5}}" src = "../../../image/icon/start2.png" />
+        <image wx:if = "{{ i === 0}}" src = "../../../image/icon/start3.png" />
+      </block>
+    </view>
+    <text class = "star-core">{{score}}</text>
+  </view>
+</template>
